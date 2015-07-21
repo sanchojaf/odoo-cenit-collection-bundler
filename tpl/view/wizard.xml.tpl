@@ -13,7 +13,7 @@
                 <footer position="replace">
                     <footer>
                         <button string="Apply" type="object" name="execute"
-                                class="oe_highlight" context="{'install': True}"/>
+                                class="oe_highlight" context="{{'install': True}}"/>
                     </footer>
                 </footer>
                 <separator string="title" position="replace">
@@ -21,7 +21,7 @@
                         Configure {summary} data
                     </p>
                     <group>
-                        {view_fields}
+{view_fields}
                     </group>
                 </separator>
             </field>

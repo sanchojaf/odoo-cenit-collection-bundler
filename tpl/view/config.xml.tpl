@@ -16,7 +16,7 @@
                     </header>
                     <div>
                         <group string="{summary} settings">
-                            {view_fields}
+{view_fields}
                         </group>
                     </div>
                 </form>

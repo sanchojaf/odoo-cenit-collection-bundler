@@ -19,9 +19,9 @@
 #
 ##############################################################################
 
-{
+{{
     'name': '{summary}',
-    'version': '1.0',
+    'version': '{shared_version}',
     'author': 'OpenJAF',
     'website': 'http://www.openjaf.com',
     #~ 'license': 'LGPL-3',
@@ -32,8 +32,8 @@
     'depends': ['cenit_base'],
     'data': [
         'security/ir.model.access.csv',
-        'view/config.xml',
+        {config}
         {wizard}
     ],
     'installable': True
-}
+}}
